@@ -16,7 +16,7 @@ const THEME_STORAGE_KEY = 'ecommerce_theme';
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<Theme>(() => {
     const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-    return (savedTheme as Theme) || 'light';
+    return (savedTheme as Theme) || 'light'; 
   });
 
   useEffect(() => {
