@@ -1,0 +1,10 @@
+.app {
+  min-height: 100vh;
+  background: var(--bg-primary);
+  transition: background-color 0.3s;
+}
+
+.main-content {
+  min-height: calc(100vh - 80px);
+  padding-bottom: 2rem;
+}
